@@ -51,14 +51,23 @@
 		.txt_home {
 			color: #808080;
 			font-family: Arial;
-			top: 120px;
 			text-align: left;
 			margin-left: 40%;
 			margin-right: 15%;
 			position: absolute;
+			animation-name: welcome;
+			animation-duration: 2s;
+			animation-delay: 0s;
+			animation-timing-function: cubic-bezier(.31,.52,.66,.86);
+			animation-fill-mode: forwards;
 			}
 
-		
+
+		@keyframes welcome {
+			from {top: 0px;}
+			to {top: 120px;}
+		}
+
 		.nav-white {
 			background-color: white;	
 			height: 50px;
@@ -133,7 +142,7 @@
 
 	<br/>
 	<br/>
-	&nbsp;&nbsp;&nbsp;&nbsp; n a m e  :  J o o l i  &nbsp;  H a n
+	&nbsp;&nbsp;&nbsp;&nbsp; J o o l i  &nbsp;  H a n
 	<br/>
 	<br/>
 	<br/>
